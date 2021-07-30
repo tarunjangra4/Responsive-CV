@@ -51,44 +51,41 @@ img{
     height: 100%;
     border-radius: 50%;
 }
-.profile h2{
+.profile h1{
     color: #fff;
-    margin-top: 1.5em;
+    margin-top: 0.8em;
+    font-weight: 600;
     text-align: center;
     line-height: 1.2em;
 }
-.profile h2 span{
+.profile h1 span{
     font-size: 0.8em;
     font-weight: 300;
 }
 
+
 .contactInfo{
     padding: 35px 0px 0px 10px;
 }
-
 .contactInfo .title{
     color: #fff;
     letter-spacing: 1px;
     padding-bottom: 15px;
 }
-
 .contactInfo ul{
     position: relative;
 }
-
 .contactInfo ul li{
     position: relative;
     list-style: none;
     margin: 8px 0px;
 }
-
 .contactInfo ul li i{
     display: inline-block;
     /* font-size: 16px; */
     width: 3em;                 /*30px*/
     color: #03a9f4;
 } 
-
 .contactInfo ul li span{
     color: #fff;
     font-weight: 100;           /**/
@@ -99,7 +96,6 @@ img{
     padding: 24px 0px 0px 11px;
     color: #fff;
 }
-
 .education ul{
     margin-top: 16px;
 }
@@ -142,38 +138,54 @@ progress{
 
 .about h2{
     color: #013852;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 .about p{
-    text-justify: inter-word;
+    /* text-justify: inter-word; */
+    font-size: 1.2em;
+    letter-spacing: 0.06em;
+    line-height: 1.3em;
 }
 
 
 .experience{
-    margin-top: 32px;
+    margin-top: 40px;
 }
 .experience .title{
     color: #013852;
 }
 .box{
-    margin-top: 15px;
+    margin-top: 17px;
     display: flex;
     flex-direction: row;
 }
 .year_post{                     /* same */
     min-width: 150px;
 }
-.year_post h5{
-    color: #848c90;
-    font-weight: 600;
+.year_post h2{
+    font-weight: 400;
 }
-.year_post li p{
+.year_post h3{
+    font-weight: 400;
+}
+.year_post h4{
+    color: #848c90;
+    font-weight: 400;
+}
+/* .year_post li p{
     margin-top: 5px;
+    letter-spacing: 2em;
+} */
+.year_post p{
+    margin-top: 8px;
+    letter-spacing: 0.06em;
+    line-height: 1.2em;
+    font-size: 1.2em;
 }
 
 
 .skills{
-    margin-top: 32px;
+    margin-top: 40px;
 }
 .skills h2{
     color: #013852;
@@ -191,6 +203,9 @@ progress{
 }
 .skills li div{
     min-width: 9.5em;
+}
+.skills h3{
+    font-weight: 400;
 }
 .skills progress{
     width: 24em;
@@ -228,7 +243,7 @@ progress{
 
 
 .hobbies{
-    margin-top: 32px;
+    margin-top: 40px;
 }
 .hobbies h2{
     color: #013852;
